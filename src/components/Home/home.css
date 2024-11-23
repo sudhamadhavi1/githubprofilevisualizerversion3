@@ -1,0 +1,164 @@
+.home-bg-container {
+  
+  background-color: #0f172a;
+  min-height: 100vh;
+  overflow-y: auto;
+  padding-right: 150px;
+  padding-left: 150px;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .home-bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+}
+
+.home-initial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+.input-search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  border-radius: 4px;
+  width: 60%;
+}
+
+.error-input {
+  border: 1px solid #dc2626;
+}
+.input-container {
+  background-color: #1d2537;
+  outline: none;
+  border-width: 0px;
+  color: #ffffff;
+  padding-left: 24px;
+  height: 100%;
+  width: 100%;
+}
+.search-button {
+  height: 100%;
+  width: 64px;
+  background-color: #4f4e4c;
+  color: #ffffff;
+}
+.search-icon {
+  height: 24px;
+  width: 24px;
+}
+.error-message {
+  color: #dc2626;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .input-search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+    width: 60%;
+    border-radius: 4px;
+  }
+
+  .input-container {
+    background-color: #0a193d;
+    outline: none;
+    border-width: 0px;
+    color: #ffffff;
+  }
+  .search-button {
+    height: 100%;
+    width: 40px;
+    background-color: #4f4e4c;
+    color: #ffffff;
+  }
+  .search-icon {
+    height: 16px;
+    width: 16px;
+  }
+  .error-message {
+    font-size: 10px;
+  }
+}
+
+.home-initial-image-container {
+  margin-top: 70px;
+}
+
+.home-image {
+  width: 90%;
+  height: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .home-initial-image-container {
+    margin-top: 36px;
+  }
+
+  .large-devices-header {
+    display: none;
+  }
+}
+
+
+.header-mobile-version{
+  width:100%;
+}
+
+@media screen and (min-width: 769px) {
+  .header-mobile-version {
+    display: none;
+  }
+}
+
+.profile-success-view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+
+}
+
+
+
+@media screen and (max-width:768px) {
+  .profile-success-view{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+    overflow-y:auto;
+    height:100%;
+    width: 100%;
+    margin-top: 0%;
+    
+    padding:16px 24px 24px;
+
+    
+
+  }
+  
+}

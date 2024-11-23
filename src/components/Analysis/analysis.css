@@ -1,0 +1,31 @@
+.analysis-bg-container {
+  background-color: #0f172a;
+  min-height: 100vh;
+  overflow-y: auto;
+  padding-right: 150px;
+  padding-left: 150px;
+  margin: 0;
+}
+.bg-linear-chart {
+  background-color: #132240;
+  border-radius: 12px;
+  padding: 14px 32px;
+}
+
+.analysis-charts-container {
+  padding-top: 48px;
+  padding-bottom: 96px;
+}
+
+.analysis-heading {
+  font-family: 'HK Grotesk';
+  font-weight: 700;
+  font-size: 32px;
+  color: #f8fafc;
+}
+
+.analysis-desktop-piecharts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

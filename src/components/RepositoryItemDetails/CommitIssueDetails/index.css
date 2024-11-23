@@ -1,0 +1,45 @@
+.commit-issue-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+}
+
+.commit-issue-sub-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #cbd5e1;
+  border: 1px solid #cbd5e1;
+  padding: 8px 24px;
+  border-radius: 4px;
+  margin-right: 24px;
+}
+
+.commit-issue-count {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+}
+
+.commit-issue-text {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .commit-issue-container {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .commit-issue-sub-container {
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+  .commit-issue-container {
+    margin-bottom: 16px;
+  }
+}

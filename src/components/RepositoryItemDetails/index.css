@@ -1,0 +1,53 @@
+.loader-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.repository-item-bg-container {
+  overflow-y: auto;
+  min-height: 100vh;
+  background-color: #0f172a;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.repo-item-success-bg {
+  background-color: #1d2537;
+  border-radius: 8px;
+  padding: 48px;
+  margin-top: 72px;
+}
+
+.repo-item-language-text {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  color: #f8fafc;
+  margin-top: 32px;
+}
+
+.mobile-pieChart {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .repository-item-bg-container {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .repo-item-success-bg {
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 24px;
+  }
+  .destop-pieChart {
+    display: none;
+  }
+  .mobile-pieChart {
+    display: block;
+  }
+}

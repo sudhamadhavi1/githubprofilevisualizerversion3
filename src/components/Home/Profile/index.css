@@ -1,0 +1,129 @@
+.profile-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.profile-top-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.name {
+  font-weight: 700;
+  font-size: 48px;
+  color: #f8fafc;
+  line-height: 63px;
+  margin-top: 24px;
+}
+.login-name {
+  font-weight: 500;
+  font-size: 24px;
+  color: #f8fafc;
+  line-height: 32px;
+}
+
+.bio {
+  font-weight: 400;
+  font-size: 18px;
+  color: #f8fafc;
+  line-height: 32px;
+}
+
+.stats-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stats-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: #f8fafc;
+  line-height: 24px;
+}
+
+.stats-number {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3b82f6;
+  line-height: 32px;
+}
+
+.company-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 48px;
+}
+
+.company-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 48px;
+}
+
+.sub-text {
+  font-weight: 600;
+  font-size: 20px;
+  color: #3b82f6;
+}
+
+.sub-details {
+  font-weight: 400;
+  font-size: 18px;
+  color: #f8fafc;
+  line-height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
+
+.company-url-mobile-version{
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .company-desktop-version{
+display: none;
+
+  }
+  .company-url-mobile-version{
+    margin-top:24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hamburger-button{
+    color:white;
+    background-color: #0F172A;
+    border: 0px solid ;
+  }
+
+}

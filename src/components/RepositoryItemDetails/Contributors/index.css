@@ -1,0 +1,66 @@
+.contributorsList {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.avatar-image {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.count-image {
+  background-color: white;
+  color: #0f172a;
+  padding: 7px 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contributors-heading {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  margin-top: 32px;
+}
+
+.contributor-description {
+  color: #cbd5e1;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.contributor-list-containor {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .contributors-heading {
+    font-size: 20px;
+    margin-top: 16px;
+  }
+
+  .contributor-description {
+    color: #cbd5e1;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .avatar-image {
+    height: 32px;
+    width: 32px;
+  }
+
+  .count-image {
+    font-size: 12px;
+    font-weight: 700;
+  }
+}

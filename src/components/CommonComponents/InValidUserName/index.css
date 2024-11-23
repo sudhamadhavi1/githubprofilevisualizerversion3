@@ -1,0 +1,18 @@
+.invalid-bg-container {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+}
+.description {
+  font-weight: 500;
+  font-size: 20px;
+  color: #f8fafc;
+}
+
+.go-home-btn {
+  padding: 8px 24px;
+}

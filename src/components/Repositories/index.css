@@ -1,0 +1,33 @@
+.repo-main-container {
+  background-color: #0f172a;
+  height: 100vh;
+  overflow-y: auto;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.repositories-heading {
+  color: #f8fafc;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.repo-card-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .repo-main-container {
+    flex-direction: column;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .repositories-heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+}
